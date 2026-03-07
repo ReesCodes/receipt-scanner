@@ -67,7 +67,7 @@ function extractTestData () {
         return resolve()
       }
 
-      fs.access(saveAs, fs.F_OK, function (error) {
+      fs.access(saveAs, fs.constants.F_OK, function (error) {
         if (!error) {
           return resolve(saveAs)
         }

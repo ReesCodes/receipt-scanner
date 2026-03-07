@@ -6,7 +6,12 @@ var dateParser = require('../../../lib/text_parser/date_parser')
 
 var extractValue = function (results) {
   if (results.length > 0) {
-    return results[0].start.date().toISOString().slice(0, 10)
+    // Extract date components directly to avoid timezone conversion issues
+    var start = results[0].start
+    var year = start.get('year')
+    var month = String(start.get('month')).padStart(2, '0')
+    var day = String(start.get('day')).padStart(2, '0')
+    return year + '-' + month + '-' + day
   }
 }
 

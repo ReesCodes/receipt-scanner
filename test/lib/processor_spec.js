@@ -2,7 +2,7 @@
 var chai = require('chai')
 var assert = chai.assert
 var sinon = require('sinon')
-var tesseract = require('node-tesseract')
+var tesseract = require('../../lib/tesseract_wrapper')
 var path = require('path')
 
 var scanner = require('../../lib/processor')
@@ -121,6 +121,11 @@ describe('Processor', function () {
       var results = scanner().parseText('text total 6,000.00 date 2016-08-13')
       assert.equal(results.amount, '6,000.00')
       assert.equal(results.date, '2016-08-13')
+      assert.isObject(results.confidence)
+      assert.isAtLeast(results.confidence.amount, 0)
+      assert.isAtMost(results.confidence.amount, 1)
+      assert.isAtLeast(results.confidence.date, 0)
+      assert.isAtMost(results.confidence.date, 1)
     })
   })
 

@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-var program = require('commander')
+var program = require('commander').program
 var fs = require('fs')
 var Progress = require('progress')
 var scanner = require('./main')
@@ -61,13 +61,15 @@ function action (paths, options) {
   }
 
   var stderr = process.stderr
+  var progressStream = hideProgressBar ? { write: function () {} } : stderr
+
   var bar = new Progress('Parsing :current/:total |:bar| :elapseds', {
     complete: '\u2591',
     incomplete: ' ',
     width: 35,
     total: files.length,
     clear: !hideProgressBar,
-    stream: hideProgressBar ? function () {} : stderr
+    stream: progressStream
   })
 
   function updateProgressBar () {
@@ -225,7 +227,7 @@ function statistics (objects) {
 }
 
 program
-  .arguments('<path...>')
+  .argument('<path...>')
   .option('-f, --format <format>', 'format to return, json (default) or text')
   .option('-p, --progress', 'add a progress bar')
   .option('-s, --summary', 'show summary details')
