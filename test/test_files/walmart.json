@@ -1,0 +1,287 @@
+{
+    "./test/test_files/walmart.png": {
+        "confidence": {
+            "amount": 0.91,
+            "date": 0.84,
+            "receipt_info": {
+                "merchant": 0.88,
+                "approvalCode": 0.8,
+                "terminalId": 0.88,
+                "transactionId": 0.8
+            },
+            "receipt_items": {
+                "overall": 0.98,
+                "items": [
+                    {
+                        "description": 0.9,
+                        "lineTotal": 0.9,
+                        "sku": 0.92,
+                        "overall": 1
+                    },
+                    {
+                        "description": 0.9,
+                        "lineTotal": 0.9,
+                        "sku": 0.92,
+                        "overall": 1
+                    },
+                    {
+                        "description": 0.9,
+                        "lineTotal": 0.9,
+                        "sku": 0.92,
+                        "overall": 1
+                    },
+                    {
+                        "description": 0.9,
+                        "lineTotal": 0.9,
+                        "sku": 0.92,
+                        "overall": 1
+                    },
+                    {
+                        "description": 0.9,
+                        "lineTotal": 0.9,
+                        "sku": 0.92,
+                        "overall": 1
+                    },
+                    {
+                        "description": 0.9,
+                        "lineTotal": 0.9,
+                        "sku": 0.92,
+                        "overall": 1
+                    },
+                    {
+                        "description": 0.9,
+                        "lineTotal": 0.9,
+                        "sku": 0.92,
+                        "overall": 1
+                    },
+                    {
+                        "description": 0.7,
+                        "lineTotal": 0.9,
+                        "sku": 0.92,
+                        "overall": 1
+                    },
+                    {
+                        "description": 0.9,
+                        "lineTotal": 0.9,
+                        "sku": 0.92,
+                        "overall": 1
+                    },
+                    {
+                        "description": 0.9,
+                        "lineTotal": 0.9,
+                        "sku": 0.92,
+                        "overall": 1
+                    },
+                    {
+                        "description": 0.9,
+                        "lineTotal": 0.9,
+                        "sku": 0.92,
+                        "overall": 1
+                    },
+                    {
+                        "description": 0.9,
+                        "lineTotal": 0.9,
+                        "sku": 0.92,
+                        "overall": 1
+                    },
+                    {
+                        "description": 0.7,
+                        "lineTotal": 0.9,
+                        "sku": 0.92,
+                        "overall": 1
+                    },
+                    {
+                        "description": 0.7,
+                        "lineTotal": 0.9,
+                        "sku": 0.92,
+                        "overall": 1
+                    },
+                    {
+                        "description": 0.9,
+                        "lineTotal": 0.9,
+                        "sku": 0.92,
+                        "overall": 1
+                    },
+                    {
+                        "description": 0.7,
+                        "lineTotal": 0.9,
+                        "sku": 0.92,
+                        "overall": 1
+                    },
+                    {
+                        "description": 0.7,
+                        "lineTotal": 0.9,
+                        "sku": 0.92,
+                        "overall": 1
+                    },
+                    {
+                        "description": 0.9,
+                        "lineTotal": 0.9,
+                        "sku": 0.92,
+                        "overall": 1
+                    },
+                    {
+                        "description": 0.9,
+                        "lineTotal": 0.9,
+                        "sku": 0.92,
+                        "overall": 1
+                    },
+                    {
+                        "description": 0.9,
+                        "lineTotal": 0.9,
+                        "sku": 0.92,
+                        "overall": 1
+                    },
+                    {
+                        "description": 0.9,
+                        "lineTotal": 0.9,
+                        "sku": 0.92,
+                        "overall": 1
+                    },
+                    {
+                        "description": 0.9,
+                        "lineTotal": 0.9,
+                        "sku": 0.92,
+                        "overall": 1
+                    }
+                ],
+                "summary": {
+                    "subtotal": 0.9,
+                    "tax": 0.86,
+                    "total": 0.92,
+                    "changeDue": 0.88,
+                    "itemsSold": 0.85
+                }
+            }
+        },
+        "amount": "98.21",
+        "date": "2017-07-28",
+        "receipt_info": {
+            "merchant": "Walmart .",
+            "approvalCode": "572668",
+            "terminalId": "8CO10764",
+            "transactionId": "367209239650094"
+        },
+        "receipt_items": {
+            "items": [
+                {
+                    "description": "PET TOY",
+                    "lineTotal": "1.97",
+                    "sku": "004747571656"
+                },
+                {
+                    "description": "PLOPPY PUPPY",
+                    "lineTotal": "1.97",
+                    "sku": "004747514846"
+                },
+                {
+                    "description": "SSSUPREHE 8",
+                    "lineTotal": "4.97",
+                    "sku": "070060332153"
+                },
+                {
+                    "description": "MUNCHY DMBEL",
+                    "lineTotal": "3.77",
+                    "sku": "064113106796"
+                },
+                {
+                    "description": "DOG TREAT",
+                    "lineTotal": "2.92",
+                    "sku": "007219013654"
+                },
+                {
+                    "description": "PED PCH 1",
+                    "lineTotal": "0.50",
+                    "sku": "002310011802"
+                },
+                {
+                    "description": "PED PCH 1",
+                    "lineTotal": "0.80",
+                    "sku": "002310011802"
+                },
+                {
+                    "description": "COUPON",
+                    "lineTotal": "1.00",
+                    "sku": "052310037000"
+                },
+                {
+                    "description": "HNYMD SHORES",
+                    "lineTotal": "3.98",
+                    "sku": "068491226837"
+                },
+                {
+                    "description": "PRENCH DRSNG",
+                    "lineTotal": "1.98",
+                    "sku": "004232100655"
+                },
+                {
+                    "description": "3 ORANGES",
+                    "lineTotal": "5.47",
+                    "sku": "001466635001"
+                },
+                {
+                    "description": "BABY CARROTS",
+                    "lineTotal": "1.46",
+                    "sku": "003334366602"
+                },
+                {
+                    "description": "COLLARDS.",
+                    "lineTotal": "1.24",
+                    "sku": "000000004614KI"
+                },
+                {
+                    "description": "CALZONE",
+                    "lineTotal": "2.50",
+                    "sku": "005208362080"
+                },
+                {
+                    "description": "4 RVW MNT",
+                    "lineTotal": "19.77",
+                    "sku": "003399105848"
+                },
+                {
+                    "description": "STKOBRLPLABL",
+                    "lineTotal": "1.97",
+                    "sku": "001554679414"
+                },
+                {
+                    "description": "STKOBRLPLABL",
+                    "lineTotal": "1.97",
+                    "sku": "001554679414"
+                },
+                {
+                    "description": "STKO SUNFLWR",
+                    "lineTotal": "0.97",
+                    "sku": "001554679410"
+                },
+                {
+                    "description": "STKO SUNFLWR",
+                    "lineTotal": "0.97",
+                    "sku": "001558679410"
+                },
+                {
+                    "description": "BLING BEADS",
+                    "lineTotal": "0.97",
+                    "sku": "076594060699"
+                },
+                {
+                    "description": "GREAT VALUE",
+                    "lineTotal": "9.97",
+                    "sku": "0074746203191"
+                },
+                {
+                    "description": "DRY DOG",
+                    "lineTotal": "12.44",
+                    "sku": "002310011035"
+                }
+            ],
+            "summary": {
+                "subtotal": "93.62",
+                "tax": "4.59",
+                "total": "98.21",
+                "changeDue": "0.00",
+                "itemsSold": 25
+            }
+        }
+    }
+}
